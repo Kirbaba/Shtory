@@ -1,0 +1,68 @@
+.header {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	background-color: #FEFEFE;
+	padding: 10px 0;
+	&__adress {
+		float: left;
+		h4 {
+			text-transform: uppercase;
+			font-family: $cent-b;
+			font-size: 17px;
+			color: #649C25;
+			margin-bottom: 5px;
+			margin-top: 0;
+		}
+		p {
+			background-image: url('../img/pointer.png');
+			background-repeat: no-repeat;
+			background-position: 0 50%;
+			margin: 0;
+			padding-left: 25px;
+			font-family: $m;
+			font-size: 15px;
+			color: #000;			
+		}
+	}
+	&__phone {
+		text-align: right;
+		float: right;
+		h3 {
+			background-image: url('../img/phone.png');
+			background-repeat: no-repeat;
+			background-position: 0 50%;
+			padding-left: 35px;
+			font-size: 24px;
+			font-family: $m;
+			margin: 0;
+			small {
+				display: block;
+				color: #000;
+				font-size: 11px;				
+			}
+		}
+		a {
+			display: block;
+			float: right;
+			color: #fff;
+			background-color: #639B24;
+			padding: 8px 25px;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 14px;
+			font-family: $m;
+			-webkit-box-shadow: inset 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+			-moz-box-shadow:    inset 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+			box-shadow:         inset 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+			position: relative;
+			@include transition(.3s);
+			margin-top: 5px;
+			&:hover, &:focus {
+				background-color: darken(#639B24,10%);
+			}
+		}
+	}
+}
