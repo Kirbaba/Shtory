@@ -250,6 +250,117 @@
 		<!-- close .container -->
 	</section>
 	<!-- close .advantages -->
+
+	<!-- open .portfolio -->
+	<section class="portfolio">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title">ПОРТФОЛИО<span class="title-separator"></span></h2>
+				<!-- close .block_title -->
+				<!-- open .block_desc -->
+				<h4 class="block_desc">Тысячи довольных клиентов по всему миру уже оценили качество и стиль Benone Alta Moda</h4>
+				<!-- close .block_desc -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="#" class="portfolio__item--img">
+							<img src="<?php bloginfo('template_directory'); ?>/img/ajnj.jpg" alt="" />
+							<span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="#" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/foto.png" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img">
+						<img src="<?php bloginfo('template_directory'); ?>/img/foto.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img"><img src="<?php bloginfo('template_directory'); ?>/img/foto-1.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img"><img src="<?php bloginfo('template_directory'); ?>/img/ajnj-1.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img"><img src="<?php bloginfo('template_directory'); ?>/img/foto-2.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img"><img src="<?php bloginfo('template_directory'); ?>/img/foto-3.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<!-- open .portfolio__item -->
+					<div class="portfolio__item">
+						<a href="" class="portfolio__item--img"><img src="<?php bloginfo('template_directory'); ?>/img/foto-4.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
+						<p>Название проекта в две строчки</p>
+						<a href="" class="portfolio__item--link">Подробнее</a>
+					</div>
+					<!-- close .portfolio__item -->
+				</div>
+				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .portfolio -->
     
 <?php wp_footer(); ?>
 </body>
