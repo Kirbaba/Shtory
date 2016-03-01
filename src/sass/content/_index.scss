@@ -3,5 +3,29 @@
 	float: left;
 	position: relative;
 	width: 100%;
+	&:before, &:after {
+		content: "";
+		position: absolute;
+		display: block;
+		top: 0;
+		bottom: 0;		
+		width: 15%;		
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+		
+		z-index: 9;
+	}
+	&:before {
+		left: 0;
+		background-image: url('../img/flower-left.png');
+		background-position: 100% 100%;
+	}
+	&:after {
+		right: 0;
+		background-image: url('../img/flower-right.png');
+		background-position: 0 100%;
+	}
 }
 
