@@ -11,14 +11,14 @@
 		width: 20px;
 		background-color: #8b888b;
 		height: 20px;
-		margin: 0 5px;
+		left: 0;
 		@include border-radius(50%)
 	}		
 	.fotorama__nav__frame.fotorama__active .fotorama__dot {
 		width: 20px;
 		height: 20px;
 		background-color: #546824;
-		border: 2px solid #8b888b!important;
+		border: 3px solid #8b888b!important;
 		border: none;	
 	}
 	.fotorama__nav {
@@ -27,5 +27,50 @@
     }
     .fotorama__nav__frame.fotorama__nav__frame--dot {
 	    margin: 5px;
+	}
+	.fotorama__arr {
+		width: 40px;
+		height: 40px;
+		@include border-radius(50%);
+		border: 3px solid #fff;
+		background: url("../img/arr_right.png");
+		background-repeat: no-repeat;
+		-webkit-background-size: 30%;
+		     -o-background-size: 30%;
+		        background-size: 30%;
+		background-position: 60% 50%;
+		z-index: 99;
+		
+		&--next {
+			opacity: 0.5!important;
+			display: block!important;
+			transform: none!important;
+			right: 15%;	
+			&:hover {
+				opacity: 1!important;
+			}	
+		}
+		&--prev {
+			opacity: 1!important;
+			display: block!important;
+			transform: none!important;
+			background: url("../img/arr_left.png");
+			background-repeat: no-repeat;
+			background-position: 40% 50%;
+			-webkit-background-size: 30%;
+			     -o-background-size: 30%;
+			        background-size: 30%;
+			
+			left: 15%;
+			opacity: 0.5!important;
+			&:hover {
+				opacity: 1!important;
+			}
+		}
+
+		&--disabled {
+			display: none!important;
+			opacity: 0!important;
+		}
 	}
 }

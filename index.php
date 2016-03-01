@@ -64,10 +64,29 @@
 		<!-- open .home-slider -->
 		<div class="home-slider">
 			<!-- open .fotorama -->
-			<div class="fotorama" data-width="100%" data-radio="1925/460" data-fit="cover" data-autoplay="true" data-loop="true" data-arrows="false">
+			<div class="fotorama" data-width="100%" data-height="500" data-fit="cover" data-autoplay="false" data-loop="true" data-arrows="true">
 				<!-- open .home-slider__item -->
 				<div data-img="<?php bloginfo('template_directory'); ?>/img/fon.jpg">
-				hello</div>
+					<!-- open .home-slider__item -->
+					<div class="home-slider__item">
+					<!-- open .container -->
+					<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+					<!-- open .home-slider__item--icon -->
+						<div class="home-slider__item--icon">
+							<img src="<?php bloginfo('template_directory'); ?>/img/slider-icon.png" alt=""/>
+						</div>
+						<!-- close .home-slider__item--icon -->	
+					
+						<h2>LOREM ШТОРЫ НА ЗАКАЗ ОТ 9 990 РУБЛЕЙ</h2>
+						<h4>Бесплатный выезд дизайнера с полным каталогом тканей и пошив штор на заказ от 1 дня</h4>
+						<a href="#" class="home-slider__item--link">ПРИГЛАСИТЬ ДИЗАЙНЕРА</a>
+						
+					</div>
+					<!-- close .container -->
+						
+					</div>
+					<!-- close .home-slider__item -->
+				</div>
 				<!-- close .home-slider__item -->
 				<!-- open .home-slider__item -->
 				<div data-img="<?php bloginfo('template_directory'); ?>/img/fon.jpg">
