@@ -69,20 +69,19 @@
 				<div data-img="<?php bloginfo('template_directory'); ?>/img/fon.jpg">
 					<!-- open .home-slider__item -->
 					<div class="home-slider__item">
-					<!-- open .container -->
-					<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-					<!-- open .home-slider__item--icon -->
-						<div class="home-slider__item--icon">
-							<img src="<?php bloginfo('template_directory'); ?>/img/slider-icon.png" alt=""/>
+						<!-- open .container -->
+						<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+						<!-- open .home-slider__item--icon -->
+							<div class="home-slider__item--icon">
+								<img src="<?php bloginfo('template_directory'); ?>/img/slider-icon.png" alt=""/>
+							</div>
+							<!-- close .home-slider__item--icon -->						
+							<h2>LOREM ШТОРЫ НА ЗАКАЗ ОТ 9 990 РУБЛЕЙ</h2>
+							<h4>Бесплатный выезд дизайнера с полным каталогом тканей и пошив штор на заказ от 1 дня</h4>
+							<a href="#" class="home-slider__item--link">ПРИГЛАСИТЬ ДИЗАЙНЕРА</a>
+							
 						</div>
-						<!-- close .home-slider__item--icon -->	
-					
-						<h2>LOREM ШТОРЫ НА ЗАКАЗ ОТ 9 990 РУБЛЕЙ</h2>
-						<h4>Бесплатный выезд дизайнера с полным каталогом тканей и пошив штор на заказ от 1 дня</h4>
-						<a href="#" class="home-slider__item--link">ПРИГЛАСИТЬ ДИЗАЙНЕРА</a>
-						
-					</div>
-					<!-- close .container -->
+						<!-- close .container -->
 						
 					</div>
 					<!-- close .home-slider__item -->
@@ -90,11 +89,47 @@
 				<!-- close .home-slider__item -->
 				<!-- open .home-slider__item -->
 				<div data-img="<?php bloginfo('template_directory'); ?>/img/fon.jpg">
-				hello</div>
+				<!-- open .home-slider__item -->
+					<div class="home-slider__item">
+						<!-- open .container -->
+						<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+						<!-- open .home-slider__item--icon -->
+							<div class="home-slider__item--icon">
+								<img src="<?php bloginfo('template_directory'); ?>/img/slider-icon.png" alt=""/>
+							</div>
+							<!-- close .home-slider__item--icon -->						
+							<h2>LOREM ШТОРЫ НА ЗАКАЗ ОТ 9 990 РУБЛЕЙ</h2>
+							<h4>Бесплатный выезд дизайнера с полным каталогом тканей и пошив штор на заказ от 1 дня</h4>
+							<a href="#" class="home-slider__item--link">ПРИГЛАСИТЬ ДИЗАЙНЕРА</a>
+							
+						</div>
+						<!-- close .container -->
+						
+					</div>
+					<!-- close .home-slider__item -->
+				</div>
 				<!-- close .home-slider__item -->
 				<!-- open .home-slider__item -->
 				<div data-img="<?php bloginfo('template_directory'); ?>/img/fon.jpg">
-				hello</div>
+				<!-- open .home-slider__item -->
+					<div class="home-slider__item">
+						<!-- open .container -->
+						<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+						<!-- open .home-slider__item--icon -->
+							<div class="home-slider__item--icon">
+								<img src="<?php bloginfo('template_directory'); ?>/img/slider-icon.png" alt=""/>
+							</div>
+							<!-- close .home-slider__item--icon -->						
+							<h2>LOREM ШТОРЫ НА ЗАКАЗ ОТ 9 990 РУБЛЕЙ</h2>
+							<h4>Бесплатный выезд дизайнера с полным каталогом тканей и пошив штор на заказ от 1 дня</h4>
+							<a href="#" class="home-slider__item--link">ПРИГЛАСИТЬ ДИЗАЙНЕРА</a>
+							
+						</div>
+						<!-- close .container -->
+						
+					</div>
+					<!-- close .home-slider__item -->
+				</div>
 				<!-- close .home-slider__item -->
 			</div>
 			<!-- close .fotorama -->
@@ -102,6 +137,119 @@
 		<!-- close .home-slider -->
 	</div>
 	<!-- close .home-screen -->
+
+	<!-- open .advantages -->
+	<section class="advantages">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title">НАШИ ПРЕИМУЩЕСТВА<span class="title-separator"></span></h2>
+				<!-- open .advantages__item -->
+				<div class="advantages__item">
+					<!-- open .advantages--thumb -->
+					<div class="advantages__item--thumb">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv_01.png" alt="" />
+					</div>
+					<!-- close .advantages--thumb -->
+					<!-- open .advantages__desc -->
+					<div class="advantages__item--desc">
+						<p>Цены ниже, чем в Москве, — 
+						производство находится в Подмосковье, 
+						ткани закупаем оптом на склад.</p>
+					</div>
+					<!-- close .advantages__desc -->
+				</div>
+				<!-- close .advantages__item -->
+				<!-- open .advantages__item -->
+				<div class="advantages__item">
+					<!-- open .advantages--thumb -->
+					<div class="advantages__item--thumb">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv_03.png" alt="" />
+					</div>
+					<!-- close .advantages--thumb -->
+					<!-- open .advantages__desc -->
+					<div class="advantages__item--desc">
+						<p>Заключаем договор, где прописаны 
+						материалы, цены, сроки. Вы получите 
+						идеальные шторы — вовремя.</p>
+					</div>
+					<!-- close .advantages__desc -->
+				</div>
+				<!-- close .advantages__item -->
+				<!-- open .advantages__item -->
+				<div class="advantages__item">
+					<!-- open .advantages--thumb -->
+					<div class="advantages__item--thumb">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv_06.png" alt="" />
+					</div>
+					<!-- close .advantages--thumb -->
+					<!-- open .advantages__desc -->
+					<div class="advantages__item--desc">
+						<p>Большой выбор материалов — ткани 
+						из Испании, Италии, Германии, Индии, 
+						Турции, карнизы из Дании, Германии, 
+						Индии, Турции, России. Нужной ткани 
+						нет на складе? Закажем специально 
+						для вас у поставщика!</p>
+					</div>
+					<!-- close .advantages__desc -->
+				</div>
+				<!-- close .advantages__item -->
+				<!-- open .advantages__item -->
+				<div class="advantages__item">
+					<!-- open .advantages--thumb -->
+					<div class="advantages__item--thumb">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv_06.png" alt="" />
+					</div>
+					<!-- close .advantages--thumb -->
+					<!-- open .advantages__desc -->
+					<div class="advantages__item--desc">
+						<p>“Одеваем” сложные окна — монтируем 
+						карнизные системы для больших 
+						пролетов и окон сложной формы.</p>
+					</div>
+					<!-- close .advantages__desc -->
+				</div>
+				<!-- close .advantages__item -->
+				<!-- open .advantages__item -->
+				<div class="advantages__item">
+					<!-- open .advantages--thumb -->
+					<div class="advantages__item--thumb">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv_10.png" alt="" />
+					</div>
+					<!-- close .advantages--thumb -->
+					<!-- open .advantages__desc -->
+					<div class="advantages__item--desc">
+						<p>Уже 10 лет делаем квартиры уютными, 
+						а офисы презентабельными.</p>
+					</div>
+					<!-- close .advantages__desc -->
+				</div>
+				<!-- close .advantages__item -->
+				<!-- open .advantages__item -->
+				<div class="advantages__item">
+					<!-- open .advantages--thumb -->
+					<div class="advantages__item--thumb">
+						<img src="<?php bloginfo('template_directory'); ?>/img/adv_10.png" alt="" />
+					</div>
+					<!-- close .advantages--thumb -->
+					<!-- open .advantages__desc -->
+					<div class="advantages__item--desc">
+						<p>Срок выполнения 
+						заказа - на ваших условиях.</p>
+					</div>
+					<!-- close .advantages__desc -->
+				</div>
+				<!-- close .advantages__item -->
+				<!-- close .block_title -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .advantages -->
     
 <?php wp_footer(); ?>
 </body>

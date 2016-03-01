@@ -103,3 +103,44 @@
 		margin: 0 auto;
 	}
 }
+
+.advantages {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 25px 0;
+	&__item {
+		display: inline-block;
+		margin-right: -4px;
+		width: 50%;
+		margin-bottom: 15px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding: 0 15px;
+		vertical-align: middle;
+		&--thumb {
+			display: inline-block;
+			width: 75px;
+			height: 75px;
+			margin-right: 15px;
+			vertical-align: top;
+			margin-top: 10px;
+			img {
+				width: 100%;
+				height: auto;
+			}
+		}
+		&--desc {
+			display: inline-block;
+			width: calc(100% - 90px);
+			margin-left: -4px;
+			p {
+				font-size: 21px;
+				font-family: $m;
+				
+			}
+		}
+	}
+}
