@@ -236,8 +236,13 @@
 			}
 		}
 	}
-	.home-slider__item--link {
+	&--link {
+		@extend .home-slider__item--link;
 		margin: 30px 0;
+		color: #fff;
+		&:hover, &:focus {
+			color: #FFF;
+		}
 	}
 }
 
@@ -441,5 +446,36 @@
 			vertical-align: middle;
 			max-width: 100%;
 		}
+	}
+}
+
+.consultation {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 40px 0;
+	background-image: url('../img/bg-1.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	text-align: center;
+	h3 {
+		font-size: 38px;
+		color: #000;
+		font-family: $l;
+		display: block;
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0 25%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	.portfolio--link {
+		padding: 10px 40px;
 	}
 }

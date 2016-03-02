@@ -355,7 +355,7 @@
 					<!-- close .portfolio__item -->
 				</div>
 				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-				<a href="#" class="home-slider__item--link">СМОТРЕТЬ ЕЩЕ РАБОТЫ</a>
+				<a href="#" class="portfolio--link">СМОТРЕТЬ ЕЩЕ РАБОТЫ</a>
 			</div>
 			<!-- close .row -->
 		</div>
@@ -577,6 +577,32 @@
 		<!-- close .container -->
 	</section>
 	<!-- close .partners -->
+
+	<!-- open .consultation -->
+	<section class="consultation">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<div class="cooperation--icon">
+					<img src="<?php bloginfo('template_directory'); ?>/img/telka.png" alt=""/>
+				</div>
+				<!-- open .block_title -->
+				<h2 class="block_title">ЗАКАЗАТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ<span class="title-separator"></span></h2>
+				<!-- close .block_title -->
+				<h3>Подзаголовок пишем текст тут можно в две строчки</h3>
+				
+			</div>
+			<!-- close .row -->
+			<!-- open .row -->
+			<div class="row">
+				<a href="#" class="portfolio--link">ЗАКАЗАТЬ</a>
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .consultation -->
     
 <?php wp_footer(); ?>
 </body>
