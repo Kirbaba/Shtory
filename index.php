@@ -362,6 +362,106 @@
 		<!-- close .container -->
 	</section>
 	<!-- close .portfolio -->
+
+	<!-- open .prices -->
+	<section class="prices">
+		<!-- open .conainer -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title">НАШИ ЦЕНЫ<span class="title-separator"></span></h2>
+				<!-- close .block_title -->
+				<!-- open .prices__wrap -->
+				<div class="prices__wrap">
+					<!-- open .prices__item -->
+					<div class="prices__item">
+						<!-- open .prices__item--img -->
+						<div class="prices__item--img">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-5.jpg" alt="" />
+							<!-- open .price__marker price__marker--new -->
+							<div class="prices__marker">
+								<img src="<?php bloginfo('template_directory'); ?>/img/new-marker.png" alt="" />
+							</div>
+							<!-- close .price__marker price__marker--new -->
+						</div>
+						<!-- close .prices__item--img -->
+						<h4><span>ТКАНИ</span></h4>
+						<h3>Цена: 25000 <i class="rub"></i></h3>
+						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
+					</div>
+					<!-- close .prices__item -->
+					<!-- open .prices__item -->
+					<div class="prices__item">
+						<!-- open .prices__item--img -->
+						<div class="prices__item--img">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-6.jpg" alt="" />
+							<div class="prices__marker">
+								<img src="<?php bloginfo('template_directory'); ?>/img/best.png" alt="" />
+							</div>
+						</div>
+						<!-- close .prices__item--img -->
+						<h4><span>ПОШИВ</span></h4>
+						<h3>Цена: 25000 <i class="rub"></i></h3>
+						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
+					</div>
+					<!-- close .prices__item -->
+					<!-- open .prices__item -->
+					<div class="prices__item">
+						<!-- open .prices__item--img -->
+						<div class="prices__item--img">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-7.jpg" alt="" />
+							<div class="prices__marker">
+								<img src="<?php bloginfo('template_directory'); ?>/img/best.png" alt="" />
+							</div>
+
+						</div>
+						<!-- close .prices__item--img -->
+						<h4><span>КАРНИЗЫ</span></h4>
+						<h3>Цена: 25000 <i class="rub"></i></h3>
+						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
+					</div>
+					<!-- close .prices__item -->
+					<!-- open .prices__item -->
+					<div class="prices__item">
+						<!-- open .prices__item--img -->
+						<div class="prices__item--img">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-8.jpg" alt="" />
+							<div class="prices__marker">
+								<img src="<?php bloginfo('template_directory'); ?>/img/best.png" alt="" />
+							</div>
+
+						</div>
+						<!-- close .prices__item--img -->
+						<h4><span>ЖАЛЮЗИ</span></h4>
+						<h3>Цена: 25000 <i class="rub"></i></h3>
+						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
+					</div>
+					<!-- close .prices__item -->
+					<!-- open .prices__item -->
+					<div class="prices__item">
+						<!-- open .prices__item--img -->
+						<div class="prices__item--img">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-9.jpg" alt="" />
+							<div class="prices__marker">
+								<img src="<?php bloginfo('template_directory'); ?>/img/best.png" alt="" />
+							</div>
+
+						</div>
+						<!-- close .prices__item--img -->
+						<h4><span>РУЛОННЫЕ ШТОРЫ</span></h4>
+						<h3>Цена: 25000 <i class="rub"></i></h3>
+						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
+					</div>
+					<!-- close .prices__item -->
+				</div>
+				<!-- close .prices__wrap -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .conainer -->
+	</section>
+	<!-- close .prices -->
     
 <?php wp_footer(); ?>
 </body>

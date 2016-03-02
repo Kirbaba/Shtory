@@ -240,3 +240,123 @@
 		margin: 30px 0;
 	}
 }
+
+.prices {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 40px 0;
+	&__wrap {
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		    -webkit-justify-content: center;
+		            justify-content: center;
+		    -webkit-align-items: flex-start;
+		            align-items: flex-start;
+		 width: 100%;
+	}
+	&__item {
+		width: 275px;
+		text-align: center;
+		margin: 25px 15px;
+		&--img {
+			display: block;
+			float: left;
+			position: relative;
+			@include overflow-img;
+			width: 100%;
+			height: 245px;
+			border: 5px solid #fff;
+			outline: 1px solid #B0B1B1;
+			margin-bottom: 10px;
+			img {
+				max-width: 150%;
+			}
+		}
+		h4 {
+			font-family: $m;
+			font-size: 25px;
+			text-transform: uppercase;
+			margin: 10px 0;			
+			position: relative;
+			display: block;
+			float: left;
+			width: 100%;
+			span {
+				padding: 0 10px;
+				position: relative;
+				&:before, &:after {
+					content: "";
+					width: 6px;
+					height: 6px;
+					@include border-radius(50%);
+					background-color: #C4C4C4;
+					position: absolute;
+					display: block;
+					top: 50%;
+					-webkit-transform: translateY(-50%);
+					   -moz-transform: translateY(-50%);
+					    -ms-transform: translateY(-50%);
+					     -o-transform: translateY(-50%);
+					        transform: translateY(-50%);
+				}
+				&:before {
+					left: -6px;
+				}
+				&:after {
+					right: -6px;
+				}
+			}
+			
+		}
+		h3 {
+			margin: 10px 0;
+			font-family: $m;
+			font-size: 30px;
+			color: #4C8720;
+			i.rub {
+				display: inline-block;
+				margin: 0;
+				width: 34px;
+				height: 35px;
+				background-image: url('../img/rub.png');
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				vertical-align: bottom;
+			}
+		}
+		&--link {
+			display: inline-block;
+			padding: 10px 35px;
+			margin: 10px 0;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #040404;
+			border: 1px solid #040404;
+			position: relative;
+			@include transition(.3s);
+			font-size: 16px;
+			font-family: $m;
+			&:hover, &:focus {
+				background-color: #040404;
+				color: #fff;
+				text-decoration: none;
+			}
+		}
+	}
+	&__marker {
+		display: block;
+		position: absolute;
+		width: 70px;
+		height: 70px;
+		top: 5px;
+		right: 5px;
+		img {
+			width: 100%;
+			height: auto;			
+		}
+	}
+}
