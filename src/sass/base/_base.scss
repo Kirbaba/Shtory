@@ -51,6 +51,10 @@ ul {
   display: block;
   float: left;
   width: 100%;
+  &--w {
+    @extend .block_title;
+    color: #FFF;
+  }
 }
 span.title-separator {
   display: block;
@@ -89,6 +93,45 @@ span.title-separator {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 6px solid #000;
+  }
+  &--w {
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 195px;
+    height: 2px;
+    margin: 30px auto; 
+    background-color: #fff;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -6px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+         -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+           -o-transform: translateX(-50%);
+              transform: translateX(-50%);
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-bottom: 6px solid #fff;
+    }
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: -6px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+         -moz-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+           -o-transform: translateX(-50%);
+              transform: translateX(-50%);
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #fff;
+    }
   }
 }
 

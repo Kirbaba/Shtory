@@ -462,6 +462,29 @@
 		<!-- close .conainer -->
 	</section>
 	<!-- close .prices -->
+
+	<!-- open .cooperation -->
+	<section class="cooperation">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title--w">СОТРУДНИЧЕСТВО<span class="title-separator--w"></span></h2>
+				<!-- close .block_title -->
+				<div class="cooperation--icon">
+					<img src="<?php bloginfo('template_directory'); ?>/img/icon.png" alt=""/>
+				</div>
+				<h3>Для дизайнеров интерьеров<i>Запросить прайс лист</i></h3>
+				<a href="#" class="cooperation--link">ЗАПРОСИТЬ</a>
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .cooperation -->
+
+	
     
 <?php wp_footer(); ?>
 </body>
