@@ -603,6 +603,103 @@
 		<!-- close .container -->
 	</section>
 	<!-- close .consultation -->
+
+	<!-- open .bonuses -->
+	<section class="bonuses">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title">БОНУСЫ<span class="title-separator"></span></h2>
+				<!-- close .block_title -->
+				<!-- open .block_desc -->
+				<h4 class="block_desc">Которые вы всегда получаете</h4>
+				<!-- close .block_desc -->
+				<!-- open .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<!-- open .bonuses__item -->
+					<div class="bonuses__item">
+						<!-- open .bonuses__item--icon -->
+						<div class="bonuses__item--icon">
+							<img src="<?php bloginfo('template_directory'); ?>/img/adv_01.png" alt="" />
+						</div>
+						<!-- close .bonuses__item--icon -->
+						<!-- open .bonuses__item--desc -->
+						<div class="bonuses__item--desc">
+							<p>Текст — зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность 
+							символов. (В русском языке текст- несколько 
+							предложений, связанных между собой по смыслу.)</p>
+						</div>
+						<!-- close .bonuses__item--desc -->
+					</div>
+					<!-- close .bonuses__item -->
+				</div>
+				<!-- close .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+				<!-- open .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<!-- open .bonuses__item -->
+					<div class="bonuses__item">
+						<!-- open .bonuses__item--icon -->
+						<div class="bonuses__item--icon">
+							<img src="<?php bloginfo('template_directory'); ?>/img/adv_06.png" alt="" />
+						</div>
+						<!-- close .bonuses__item--icon -->
+						<!-- open .bonuses__item--desc -->
+						<div class="bonuses__item--desc">
+							<p>Текст — зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность 
+							символов. (В русском языке текст- несколько 
+							предложений, связанных между собой по смыслу.)</p>
+						</div>
+						<!-- close .bonuses__item--desc -->
+					</div>
+					<!-- close .bonuses__item -->
+				</div>
+				<!-- close .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+				<!-- open .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<!-- open .bonuses__item -->
+					<div class="bonuses__item">
+						<!-- open .bonuses__item--icon -->
+						<div class="bonuses__item--icon">
+							<img src="<?php bloginfo('template_directory'); ?>/img/adv_03.png" alt="" />
+						</div>
+						<!-- close .bonuses__item--icon -->
+						<!-- open .bonuses__item--desc -->
+						<div class="bonuses__item--desc">
+							<p>Текст — зафиксированная на каком-либо материальном носителе человеческая мысль; в общем плане связная и полная последовательность 
+							символов. (В русском языке текст- несколько 
+							предложений, связанных между собой по смыслу.)</p>
+						</div>
+						<!-- close .bonuses__item--desc -->
+					</div>
+					<!-- close .bonuses__item -->
+				</div>
+				<!-- close .col-lg-4 col-md-4 col-sm-12 col-xs-12 -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .bonuses -->
+
+	<!-- open .video -->
+	<section class="video">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .video__box -->
+				<div class="video__box">
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lF8byCyRJ2g" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<!-- close .video__box -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .video -->
     
 <?php wp_footer(); ?>
 </body>
