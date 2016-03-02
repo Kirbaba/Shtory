@@ -401,3 +401,45 @@
 		font-size: 22px;
 	}
 }
+
+.partners {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	padding: 40px 0;
+	&__wrap {
+		display: block;
+		float: left;
+		position: relative;
+		margin: 15px 0;
+		width: 100%;
+	}
+	.owl-carousel {
+		display: block;
+		height: auto;
+		width: 80%;
+		margin: 15px auto;
+	}
+	&__item {
+		display: inline-block;
+		width: 1 / 3 * 100%;
+		height: 75px;
+		margin-right: -4px;
+		position: relative;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		padding: 15px 25px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 75px;
+		img {
+			display: inline-block!important;
+			vertical-align: middle;
+			max-width: 100%;
+		}
+	}
+}

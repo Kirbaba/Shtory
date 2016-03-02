@@ -1,0 +1,53 @@
+#owl-demo .owl-item img{
+    display: block;
+    width: 100%;
+    height: auto;
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+    padding: 0 45px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -45px;
+  width: 45px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  top: 50%; 
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: rgba(0,0,0,0);
+   background-image: url('../img/ar--l.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: -45px;
+  top: 50%;
+  width: 45px;
+  height: 45px;
+  background-image: url('../img/ar--r.png');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0,0,0,0);
+   -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}

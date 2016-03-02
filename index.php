@@ -484,7 +484,99 @@
 	</section>
 	<!-- close .cooperation -->
 
-	
+	<!-- open .partners -->
+	<section class="partners">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title">НАШИ ПАРТНЕРЫ<span class="title-separator"></span></h2>
+				<!-- close .block_title -->
+				<!-- open .partners__wrap -->
+				<div class="partners__wrap">
+					
+				
+					<div id="owl-demo" class="owl-carousel owl-theme">
+		    			<!-- open .owl-item -->
+		    			<div class="owl-item">
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_03.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_05.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_09.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_11.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_13.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_05.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+		    			</div>
+		    			<!-- close .owl-item -->	
+		    			<!-- open .owl-item -->
+		    			<div class="owl-item">
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_03.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_05.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_09.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_11.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_13.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+							<!-- open .partners__item -->
+							<div class="partners__item">
+								<img src="<?php bloginfo('template_directory'); ?>/img/partners_05.png" alt="" />
+							</div>
+							<!-- close .partners__item -->
+		    			</div>
+		    			<!-- close .owl-item -->	    			
+		    			
+		    		</div>
+		    		<!-- close #owl-demo -->
+		    	</div>
+				<!-- close .partners__wrap -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+	</section>
+	<!-- close .partners -->
     
 <?php wp_footer(); ?>
 </body>
