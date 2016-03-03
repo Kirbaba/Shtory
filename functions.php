@@ -19,8 +19,14 @@ function add_script(){
     wp_enqueue_script( 'jq', 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', array(), '1');
     wp_enqueue_script( 'my-bootstrap-extension', get_template_directory_uri() . '/js/bootstrap.min.js', array(), '1');
     wp_enqueue_script( 'owl', get_template_directory_uri() . '/js/owl.carousel.min.js', array(), '1',1);
+    wp_enqueue_script( 'yndex-map', 'http://api-maps.yandex.ru/2.1/?lang=ru_RU', array(), '1');
     wp_enqueue_script( 'my-script', get_template_directory_uri() . '/js/script.min.js', array(), '1');
     wp_enqueue_script( 'fotorama-js', get_template_directory_uri() . '/js/fotorama.js', array(), '1');
+    wp_localize_script( 'my-script', 'myajax',
+    array(
+        'url' => get_template_directory_uri().'/img/',
+        'act' => admin_url('admin-ajax.php')
+    ));
 }
 
 function add_admin_script(){

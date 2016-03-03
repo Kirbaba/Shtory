@@ -17,3 +17,31 @@ $(document).ready(function() {
        
       });
 });
+
+ymaps.ready(init);
+
+function init () {
+    var log = document.getElementById('log'),
+        myMap = new ymaps.Map("map", {
+            center: [55.707618, 37.688467],
+            zoom: 12,
+            controls: ['zoomControl']
+        }),
+        myPlacemark = new ymaps.Placemark([55.707618, 37.688467], {
+            hintContent: 'Собственный значок метки',
+            balloonContent: 'Это красивая метка'
+        }, {
+            // Опции.
+            // Необходимо указать данный тип макета.
+            iconLayout: 'default#image',
+            // Своё изображение иконки метки.
+            iconImageHref: myajax.url + 'Pointer-1.png',
+            // Размеры метки.
+            iconImageSize: [64, 78],
+            iconImageOffset: [-32, -78]
+            
+        });
+        
+
+    myMap.geoObjects.add(myPlacemark);
+}

@@ -754,6 +754,23 @@
 		
 	</section>
 	<!-- close .contacts -->
+
+	<!-- open .map -->
+	<section class="map">
+		<!-- open #map -->
+			<div id="map"></div>
+			<!-- close #map -->
+					<!-- open .map__contacts -->
+					<div class="map__contacts">
+						<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" />
+						<p class="map__contacts--adress">г. Город Адресс<br />ул. Южнопортовая, дом 5</p>
+						<p class="map__contacts--phone">+ 7 (495) 123 45 67</p>
+						<p class="map__contacts--mail">shtori@gmail.com</p>
+					</div>
+					<!-- close .map__contacts -->
+				
+	</section>
+	<!-- close .map -->
     
 <?php wp_footer(); ?>
 </body>
