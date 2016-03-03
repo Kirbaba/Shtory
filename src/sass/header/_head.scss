@@ -1,11 +1,15 @@
 .header {
 	display: block;
 	float: left;
-	position: relative;
+	position: fixed;
 	width: 100%;
 	text-align: center;
 	background-color: #FEFEFE;
 	padding: 10px 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
 	&__adress {
 		float: left;
 		h4 {

@@ -15,7 +15,7 @@
 	<!-- open .home-screen -->
 	<div class="home-screen">
 		<!-- open .header -->
-		<header class="header">
+		<header class="header" >
 			<!-- open .container -->
 			<div class="container">
 				<!-- open .row -->
