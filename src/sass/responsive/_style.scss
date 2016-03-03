@@ -1,16 +1,160 @@
+@media only screen and (max-width: 1024px) {
+	.home-slider__item{ 
+		h2 {
+	    	font-size: 32px;
+	    }
+	    h4 {
+	    	font-size: 24px;
+	    }
+	}
+	.partners__item {
+		padding: 0;
+	}
+}
+
 @media only screen and (max-width: 980px) {
 	
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
 	.align-left {
 		text-align: center;
 	}
 	.align-right {
 		text-align: center;
 	}
+	.bonuses__item--icon {
+		width: 20%;
+	}
+	.bonuses__item--desc {
+		width: 80%;
+	}
+	.video__box {
+		width: 80%;
+	}
+	.footer {
+		h4 {
+			text-align: center;
+		}
+		&__soc {
+			text-align: center;
+		}
+	}
+	.map {
+		height: 800px;
+		&__contacts {
+			top: inherit;
+			bottom: 25px;
+			right: 50%;
+			-webkit-transform: translate(50%, 0);
+			   -moz-transform: translate(50%, 0);
+			    -ms-transform: translate(50%, 0);
+			     -o-transform: translate(50%, 0);
+			        transform: translate(50%, 0);
+		}
+	}
+	.home-screen:before, .home-screen:after {
+		content: none;
+	}
+	.home-slider .fotorama__arr--prev {
+		left: 3%;
+	}
+	.home-slider .fotorama__arr--next {
+		right: 3%;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	.header__adress {
+	    width: 35%;
+	    margin: 0 auto 15px;
+	    float: none;
+	}
+	.header__phone {
+	    text-align: right;
+	    float: none;
+	    width: 35%;
+	    margin: 15px auto;
+	}
+	.advantages__item {
+		width: 100%;
+	}
+	.consultation h3 {
+		padding: 0;
+	}
 }
 
 @media only screen and (max-width: 500px) {
+	.header__adress {
+	    width: 60%;
+	}
+	.header__phone {
+	    width: 60%;
+	}
+	.home-slider .fotorama__arr--prev {
+		left: 3%;
+	}
+	.home-slider .fotorama__arr--next {
+		right: 3%;
+	}
+	.home-slider__item h2 {
+	    font-size: 26px;
+	    width: 90%;
+	}
+	.home-slider__item h4 {
+	    font-size: 20px;
+	    width: 80%;
+	}	
 	
+	.block_desc {
+		width: 80%;
+		font-size: 25px;
+	}
+	.partners__item {
+		width: 50%;
+	}
+	.partners .owl-carousel {
+		width: 70%;
+	}
+	#owl-demo .owl-item img {
+		padding: 0 15px;
+	}
+	
+	.video__box {
+		height: 260px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.header__adress {
+	    width: 80%;
+	}
+	.header__phone {
+	    width: 80%;
+	}
+	.home-slider__item--link, .portfolio--link {
+		font-size: 14px;
+	}
+	.block_title, .block_title--w {
+		font-size: 24px;
+	}
+	.advantages__item--desc p {
+		font-size: 16px;
+	}
+	.block_desc {
+		font-size: 16px;
+	}
+	.cooperation h3 {
+		font-size: 23px;
+		i {
+			font-size: 22px;
+		}
+	}
+	.consultation h3 {
+		font-size: 28px;
+	}
+	.video__box {
+		width: 90%;
+		height: 200px;
+	}
 }
