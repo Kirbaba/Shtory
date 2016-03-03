@@ -700,6 +700,60 @@
 		<!-- close .container -->
 	</section>
 	<!-- close .video -->
+
+	<!-- open .contacts -->
+	<section class="contacts">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .block_title -->
+				<h2 class="block_title">СХЕМА ПРОЕЗДА<span class="title-separator"></span></h2>
+				<!-- close .block_title -->
+				<!-- open .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+					<!-- open .contacts__form -->
+					<div class="contacts__form">
+						<h3>Форма обратной связи</h3>
+						<input type="text" name="contacts__form--name" class="contacts__form--inp" placeholder="Имя"/>
+						<input type="email" name="contacts__form--email" class="contacts__form--inp" placeholder="Email"/>
+						<input type="tel" name="contacts__form--tel" class="contacts__form--inp" placeholder="Телефон"/>
+						<textarea name="contacts__form--text" id=""class="contacts__form--text" placeholder="Ваше сообщение"></textarea>
+						<input type="submit" class="contacts__form--sub" value="ОТПРАВИТЬ"/>
+					</div>
+					<!-- close .contacts__form -->
+				</div>
+				<!-- close .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+				<!-- open .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+				<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+					<h3>Форма обратной связи</h3>
+					<!-- open .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<a href="#" class="contacts__photo">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-11.jpg" alt="" />
+							<span class="contacts__photo--open">Увеличить </span>
+						</a>
+						<p>Фото 1</p>
+					</div>
+					<!-- close .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+					<!-- open .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<a href="#" class="contacts__photo">
+							<img src="<?php bloginfo('template_directory'); ?>/img/foto-10.jpg" alt="" />
+							<span class="contacts__photo--open">Увеличить </span>
+						</a>
+						<p>Фото 1</p>
+					</div>
+					<!-- close .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
+				</div>
+				<!-- close .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+		
+	</section>
+	<!-- close .contacts -->
     
 <?php wp_footer(); ?>
 </body>
