@@ -1,0 +1,53 @@
+.footer {
+	display: block;
+	float: left;
+	position: relative;
+	width: 100%;
+	background-image: url('../img/bg-2.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: 50% 50%;
+	padding: 25px 0;
+	color: #FFF;
+	font-family: monospace;
+	h4 {
+		text-transform: uppercase;
+		font-size: 18px;
+		margin: 10px 0;		
+	}
+	&__soc {
+		display: block;
+		float: left;
+		width: 100%;
+		text-align: right;
+		a {
+			display: inline-block;
+			color: #FFF;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin: 0 15px;
+			position: relative;
+			@include transition(.3s);
+			i {
+				width: 36px;
+				height: 36px;
+				display: inline-block;
+				margin-right: 10px;
+				border: 2px solid #fff;
+				@include border-radius(50%);
+				text-align: center;
+				line-height: 32px;
+				font-size: 20px;
+				@include transition(.3s);
+			}
+			&:hover, &:focus {
+				i {
+					background-color: #FFF;
+					color: rgba(0,0,0,.7);
+				}
+			}
+		}
+	}
+}

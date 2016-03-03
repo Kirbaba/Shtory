@@ -45,7 +45,7 @@
 								<div class="header__phone">
 									<h3><small>Бесплатная и быстрая консультация</small>
 									+7 903 722 63 49</h3>
-									<a href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+									<a href="#nowhere" data-toggle="modal" data-target="#myModal" >ЗАКАЗАТЬ ЗВОНОК</a>
 								</div>
 								<!-- close .header__phone -->
 							</div>
@@ -476,7 +476,7 @@
 					<img src="<?php bloginfo('template_directory'); ?>/img/icon.png" alt=""/>
 				</div>
 				<h3>Для дизайнеров интерьеров<i>Запросить прайс лист</i></h3>
-				<a href="#" class="cooperation--link">ЗАПРОСИТЬ</a>
+				<a href="#" data-toggle="modal" data-target="#myModal" class="cooperation--link">ЗАПРОСИТЬ</a>
 			</div>
 			<!-- close .row -->
 		</div>
@@ -596,7 +596,7 @@
 			<!-- close .row -->
 			<!-- open .row -->
 			<div class="row">
-				<a href="#" class="portfolio--link">ЗАКАЗАТЬ</a>
+				<a href="#" data-toggle="modal" data-target="#myModal" class="portfolio--link">ЗАКАЗАТЬ</a>
 			</div>
 			<!-- close .row -->
 		</div>
@@ -758,19 +758,68 @@
 	<!-- open .map -->
 	<section class="map">
 		<!-- open #map -->
-			<div id="map"></div>
-			<!-- close #map -->
-					<!-- open .map__contacts -->
-					<div class="map__contacts">
-						<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" />
-						<p class="map__contacts--adress">г. Город Адресс<br />ул. Южнопортовая, дом 5</p>
-						<p class="map__contacts--phone">+ 7 (495) 123 45 67</p>
-						<p class="map__contacts--mail">shtori@gmail.com</p>
-					</div>
-					<!-- close .map__contacts -->
-				
+		<div id="map"></div>
+		<!-- close #map -->
+		<!-- open .map__contacts -->
+		<div class="map__contacts">
+			<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" />
+			<p class="map__contacts--adress">г. Город Адресс<br />ул. Южнопортовая, дом 5</p>
+			<p class="map__contacts--phone">+ 7 (495) 123 45 67</p>
+			<p class="map__contacts--mail">shtori@gmail.com</p>
+		</div>
+		<!-- close .map__contacts -->			
 	</section>
 	<!-- close .map -->
+
+	<!-- open .footer container -->
+	<footer class="footer">
+		<!-- open .container -->
+		<div class="container">
+			<!-- open .row -->
+			<div class="row">
+				<!-- open .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+					<h4>COPYRIGHT © 2016. SHTORI RIGHTS RESERVED  </h4>
+				</div>
+				<!-- close .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+				<!-- open .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+				<div class="col-lg-5 col-md-5 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12">
+					<div class="footer__soc">
+						<a href="#"><i class="fa fa-facebook"></i>FACEBOOK</a>
+						<a href="#"><i class="fa fa-vk"></i>VKONTAKTE</a>
+						<a href="#"><i class="fa fa-instagram"></i>INSTAGRAM</a>
+					</div>
+					
+				</div>
+				<!-- close .col-lg-5 col-md-5 col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
+			</div>
+			<!-- close .row -->
+		</div>
+		<!-- close .container -->
+		
+	</footer>
+	<!-- close .footer container -->
+
+	 <!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-body">
+		    	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			     <!-- open .contacts__form -->
+				<div class="contacts__form">
+					<h3>Оставте информацию о себе</h3>
+					<input type="text" name="modal--name" class="contacts__form--inp" placeholder="Имя"/>					
+					<input type="tel" name="modal--tel" class="contacts__form--inp" placeholder="Телефон"/>
+					<textarea name="modal--text" id=""class="contacts__form--text" placeholder="Ваше сообщение"></textarea>
+					<input type="submit" class="contacts__form--sub" value="ОТПРАВИТЬ"/>
+				</div>
+				<!-- close .contacts__form -->
+	        
+	      </div>	     
+	    </div>
+	  </div>
+	</div>
     
 <?php wp_footer(); ?>
 </body>

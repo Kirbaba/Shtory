@@ -51,3 +51,26 @@
        -o-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+ .modal-content {
+    display: block;
+    float: left;
+    position: relative;    
+    width: 100%;
+    background-color: rgba(255,255,255,.8);
+    @include border-radius(0px);
+  }
+  .modal-body {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;    
+  }
+  button.close {
+    color: #000;
+    outline: none!important;
+  }
+  .contacts--form--inp {
+    background-image: none;
+    padding-left: 10px;
+  }
