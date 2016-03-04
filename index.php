@@ -29,7 +29,7 @@
 								<!-- open .header__adress -->
 								<div class="header__adress">
 									<h4>ПРАКТИКА КОМФОРТА</h4>
-									<p>г. Москва м. Румянцево, <br />Бизнес-парк "Румянцево»</p>
+									<p><?php echo get_theme_mod('address_textbox'); ?></p>
 								</div>
 								<!-- close .header__adress -->
 							</div>
@@ -44,8 +44,8 @@
 								<!-- open .header__phone -->
 								<div class="header__phone">
 									<h3><small>Бесплатная и быстрая консультация</small>
-									+7 903 722 63 49</h3>
-									<a href="#nowhere" data-toggle="modal" data-target="#myModal" >ЗАКАЗАТЬ ЗВОНОК</a>
+										<?php echo get_theme_mod('phone_textbox'); ?></h3>
+									<a href="#nowhere" class="js-modal" data-toggle="modal" data-target="#myModal" data-type="callback">ЗАКАЗАТЬ ЗВОНОК</a>
 								</div>
 								<!-- close .header__phone -->
 							</div>
@@ -65,6 +65,7 @@
 		<div class="home-slider">
 			<!-- open .fotorama -->
 			<div class="fotorama" data-width="100%" data-height="500" data-fit="cover" data-autoplay="false" data-loop="true" data-arrows="true">
+				<?php echo do_shortcode('[slider]'); ?>
 				<!-- open .home-slider__item -->
 				<div data-img="<?php bloginfo('template_directory'); ?>/img/fon.jpg">
 					<!-- open .home-slider__item -->
@@ -476,7 +477,7 @@
 					<img src="<?php bloginfo('template_directory'); ?>/img/icon.png" alt=""/>
 				</div>
 				<h3>Для дизайнеров интерьеров<i>Запросить прайс лист</i></h3>
-				<a href="#" data-toggle="modal" data-target="#myModal" class="cooperation--link">ЗАПРОСИТЬ</a>
+				<a href="#"  data-toggle="modal" data-target="#myModal" class="cooperation--link js-modal" data-type="pricelist">ЗАПРОСИТЬ</a>
 			</div>
 			<!-- close .row -->
 		</div>
@@ -498,6 +499,7 @@
 					
 				
 					<div id="owl-demo" class="owl-carousel owl-theme">
+						<?php echo do_shortcode('[partners]'); ?>
 		    			<!-- open .owl-item -->
 		    			<div class="owl-item">
 							<!-- open .partners__item -->
@@ -596,7 +598,7 @@
 			<!-- close .row -->
 			<!-- open .row -->
 			<div class="row">
-				<a href="#" data-toggle="modal" data-target="#myModal" class="portfolio--link">ЗАКАЗАТЬ</a>
+				<a href="#" data-toggle="modal" data-target="#myModal" class="portfolio--link js-modal" data-type="consultation">ЗАКАЗАТЬ</a>
 			</div>
 			<!-- close .row -->
 		</div>
@@ -718,8 +720,8 @@
 						<input type="text" name="contacts__form--name" class="contacts__form--inp" placeholder="Имя"/>
 						<input type="email" name="contacts__form--email" class="contacts__form--inp" placeholder="Email"/>
 						<input type="tel" name="contacts__form--tel" class="contacts__form--inp" placeholder="Телефон"/>
-						<textarea name="contacts__form--text" id=""class="contacts__form--text" placeholder="Ваше сообщение"></textarea>
-						<input type="submit" class="contacts__form--sub" value="ОТПРАВИТЬ"/>
+						<textarea name="contacts__form--text" class="contacts__form--text" placeholder="Ваше сообщение"></textarea>
+						<input type="submit" class="contacts__form--sub js-send" value="ОТПРАВИТЬ"/>
 					</div>
 					<!-- close .contacts__form -->
 				</div>
@@ -763,9 +765,9 @@
 		<!-- open .map__contacts -->
 		<div class="map__contacts">
 			<img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" />
-			<p class="map__contacts--adress">г. Город Адресс<br />ул. Южнопортовая, дом 5</p>
-			<p class="map__contacts--phone">+ 7 (495) 123 45 67</p>
-			<p class="map__contacts--mail">shtori@gmail.com</p>
+			<p class="map__contacts--adress"><?php echo get_theme_mod('address_textbox'); ?></p>
+			<p class="map__contacts--phone"><?php echo get_theme_mod('phone_textbox'); ?></p>
+			<p class="map__contacts--mail"><?php echo get_theme_mod('mail_textbox'); ?></p>
 		</div>
 		<!-- close .map__contacts -->			
 	</section>
@@ -785,9 +787,9 @@
 				<!-- open .col-lg-5 col-md-5 col-sm-12 col-xs-12 -->
 				<div class="col-lg-5 col-md-5 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12">
 					<div class="footer__soc">
-						<a href="#"><i class="fa fa-facebook"></i>FACEBOOK</a>
-						<a href="#"><i class="fa fa-vk"></i>VKONTAKTE</a>
-						<a href="#"><i class="fa fa-instagram"></i>INSTAGRAM</a>
+						<a href="<?php echo get_theme_mod('fb_textbox'); ?>"><i class="fa fa-facebook"></i>FACEBOOK</a>
+						<a href="<?php echo get_theme_mod('vk_textbox'); ?>"><i class="fa fa-vk"></i>VKONTAKTE</a>
+						<a href="<?php echo get_theme_mod('inst_textbox'); ?>"><i class="fa fa-instagram"></i>INSTAGRAM</a>
 					</div>
 					
 				</div>
@@ -811,8 +813,9 @@
 					<h3>Оставте информацию о себе</h3>
 					<input type="text" name="modal--name" class="contacts__form--inp" placeholder="Имя"/>					
 					<input type="tel" name="modal--tel" class="contacts__form--inp" placeholder="Телефон"/>
-					<textarea name="modal--text" id=""class="contacts__form--text" placeholder="Ваше сообщение"></textarea>
-					<input type="submit" class="contacts__form--sub" value="ОТПРАВИТЬ"/>
+					<input type="hidden" name="modal--type" class="contacts__form--inp"/>
+					<textarea name="modal--text"class="contacts__form--text" placeholder="Ваше сообщение"></textarea>
+					<input type="submit" class="contacts__form--sub js-modal-send" value="ОТПРАВИТЬ"/>
 				</div>
 				<!-- close .contacts__form -->
 	        

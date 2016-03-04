@@ -16,6 +16,52 @@ $(document).ready(function() {
             // itemsMobile : false
        
       });
+
+    $(document).on('click','.js-send', function(){
+        var name = $('input[name="contacts__form--name"]').val();
+        var mail = $('input[name="contacts__form--email"]').val();
+        var phone = $('input[name="contacts__form--tel"]').val();
+        var message = $('textarea[name="contacts__form--text"]').val();
+
+        jQuery.ajax({
+            url: myajax.url, //url, к которому обращаемся
+            type: "POST",
+            data: "action=sendFeedback&name=" +name+"&phone=" +phone+"&mail="+mail+"&message="+message, //данные, которые передаем. Обязательно для action указываем имя нашего хука
+            success: function(data){
+                $('input[name="contacts__form--name"]').val("");
+                $('input[name="contacts__form--email"]').val("");
+                $('input[name="contacts__form--tel"]').val("");
+                $('textarea[name="contacts__form--text"]').val("");
+            }
+        });
+        return false;
+    });
+
+    $(document).on('click','.js-modal', function(){
+        var type = $(this).attr('data-type');
+        $('input[name="modal--type"]').val(type);
+        return false;
+    });
+
+    $(document).on('click','.js-modal-send', function(){
+        var name = $('input[name="modal--name"]').val();
+        var phone = $('input[name="modal--tel"]').val();
+        var message = $('textarea[name="modal--text"]').val();
+        var type = $('input[name="modal--type"]').val();
+
+        jQuery.ajax({
+            url: myajax.url, //url, к которому обращаемся
+            type: "POST",
+            data: "action=sendCallback&name=" +name+"&phone=" +phone+"&message="+message+"&type="+type, //данные, которые передаем. Обязательно для action указываем имя нашего хука
+            success: function(data){
+                $('input[name="modal--name"]').val("");
+                $('input[name="modal--tel"]').val("");
+                $('textarea[name="modal--text"]').val("");
+                $('input[name="modal--type"]').val("");
+            }
+        });
+        return false;
+    });
 });
 
 ymaps.ready(init);
