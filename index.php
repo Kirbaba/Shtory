@@ -380,7 +380,6 @@
 						<!-- close .prices__item--img -->
 						<h4><span>ТКАНИ</span></h4>
 						<h3>Цена: 25000 <i class="rub"></i></h3>
-						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
 					</div>
 					<!-- close .prices__item -->
 					<!-- open .prices__item -->
@@ -395,7 +394,6 @@
 						<!-- close .prices__item--img -->
 						<h4><span>ПОШИВ</span></h4>
 						<h3>Цена: 25000 <i class="rub"></i></h3>
-						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
 					</div>
 					<!-- close .prices__item -->
 					<!-- open .prices__item -->
@@ -411,7 +409,6 @@
 						<!-- close .prices__item--img -->
 						<h4><span>КАРНИЗЫ</span></h4>
 						<h3>Цена: 25000 <i class="rub"></i></h3>
-						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
 					</div>
 					<!-- close .prices__item -->
 					<!-- open .prices__item -->
@@ -427,7 +424,6 @@
 						<!-- close .prices__item--img -->
 						<h4><span>ЖАЛЮЗИ</span></h4>
 						<h3>Цена: 25000 <i class="rub"></i></h3>
-						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
 					</div>
 					<!-- close .prices__item -->
 					<!-- open .prices__item -->
@@ -443,7 +439,6 @@
 						<!-- close .prices__item--img -->
 						<h4><span>РУЛОННЫЕ ШТОРЫ</span></h4>
 						<h3>Цена: 25000 <i class="rub"></i></h3>
-						<a href="#" class="prices__item--link">ПОДРОБНЕЕ</a>
 					</div>
 					<!-- close .prices__item -->
 				</div>
@@ -723,7 +718,7 @@
 					<h3>Форма обратной связи</h3>
 					<!-- open .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<a href="#" class="contacts__photo">
+						<a href="<?php bloginfo('template_directory'); ?>/img/foto-11.jpg" class="contacts__photo"  data-lightbox="roadtrip">
 							<img src="<?php bloginfo('template_directory'); ?>/img/foto-11.jpg" alt="" />
 							<span class="contacts__photo--open">Увеличить </span>
 						</a>
@@ -732,7 +727,7 @@
 					<!-- close .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
 					<!-- open .col-lg-6 col-md-6 col-sm-12 col-xs-12 -->
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-						<a href="#" class="contacts__photo">
+						<a href="<?php bloginfo('template_directory'); ?>/img/foto-10.jpg" class="contacts__photo"  data-lightbox="roadtrip">
 							<img src="<?php bloginfo('template_directory'); ?>/img/foto-10.jpg" alt="" />
 							<span class="contacts__photo--open">Увеличить </span>
 						</a>

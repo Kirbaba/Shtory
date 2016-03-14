@@ -17,6 +17,12 @@ $(document).ready(function() {
        
       });
 
+    (function () {
+         lightbox.option({
+            'showImageNumberLabel': false
+         });
+    })(jQuery);
+
     $(document).on('click','.js-send', function(){
         var name = $('input[name="contacts__form--name"]').val();
         var mail = $('input[name="contacts__form--email"]').val();
@@ -109,3 +115,5 @@ function init () {
 
     myMap.geoObjects.add(myPlacemark);
 }
+
+
