@@ -684,6 +684,7 @@
 			<div class="row">
 				<!-- open .video__box -->
 				<div class="video__box">
+					<!-- СЮДА ВСТАВЛЯТЬ ССЫЛКУ НА ВИДЕО ЮТУБА -->
 					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lF8byCyRJ2g" frameborder="0" allowfullscreen></iframe>
 				</div>
 				<!-- close .video__box -->
