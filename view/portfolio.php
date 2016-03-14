@@ -8,7 +8,7 @@
                 <a href="<?php echo the_permalink(); ?>" class="portfolio__item--img">
                     <?php the_post_thumbnail(); ?>
                     <span class="portfolio__item--img--more">Смотреть подробнее</span></a>
-                <p>Название проекта в две строчки</p>
+                <p><?php the_title(); ?></p>
                 <a href="<?php echo the_permalink(); ?>" class="portfolio__item--link">Подробнее</a>
             </div>
             <!-- close .portfolio__item -->
