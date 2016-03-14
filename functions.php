@@ -385,8 +385,61 @@ function partnersShortcode()
     $parser->render(TM_DIR . '/view/partners.php', ['my_query' => $my_query]);
 }
 
-add_shortcode('partners', 'prtnersShortcode');
+add_shortcode('partners', 'partnersShortcode');
 
 
 /*----------------------------------------------- END PARTNERS --------------------------------------------------------*/
+
+/*------------------------------------------------- PORTFOLIO --------------------------------------------------------*/
+
+/*function extraFieldsVkLink($post)
+{
+    ?>
+    <p>
+        <span>Ссылка: </span>
+        <input type="text" name='extra[link]' value="<?php echo get_post_meta($post->ID, "link", 1); ?>">
+    </p>
+    <?php
+}
+
+function myExtraFieldsPortfolio()
+{
+    add_meta_box('extra_vklink', 'Ссылка на альбом во "Вконтакте"(только для портфолио)', 'extraFieldsVkLink', 'post', 'normal', 'high');
+}
+
+add_action('add_meta_boxes', 'myExtraFieldsPortfolio', 1);*/
+
+add_action('wp_ajax_getPortfolio', 'portfolioShortcode');
+add_action('wp_ajax_nopriv_getPortfolio', 'portfolioShortcode');
+
+function portfolioShortcode()
+{
+    if($_POST){
+        $paged = $_POST['paged'];
+    }else{
+        $paged = 0;
+    }
+
+    $args = array(
+        'post_type' => 'post',
+        'category_name' => 'portfolio',
+        'post_status' => 'publish',
+        'paged' => $paged,
+        'posts_per_page' => 8);
+
+    $my_query = null;
+    $my_query = new WP_Query($args);
+
+    $parser = new Parser();
+    if($_POST){
+        echo  $parser->render(TM_DIR . '/view/portfolio.php', ['my_query' => $my_query]);
+        die();
+    }else{
+        $parser->render(TM_DIR . '/view/portfolio.php', ['my_query' => $my_query]);
+    }
+}
+
+add_shortcode('portfolio', 'portfolioShortcode');
+
+/*--------------------------------------------- END PORTFOLIO --------------------------------------------------------*/
 

@@ -12,11 +12,15 @@
             <!-- close .partners__item -->
 
         <?php
-    if($c==6){
+    if($c % 6 == 0){
 
         echo '</div>';
         $c=0;
     }
 
     endwhile ; }
+        if($c % 6 != 0){
+            echo '</div>';
+        }
+
 wp_reset_query(); ?>

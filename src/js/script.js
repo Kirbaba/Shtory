@@ -62,6 +62,24 @@ $(document).ready(function() {
         });
         return false;
     });
+
+    //$(document).on('click', '.portfolio--link', function(){
+    //    var paged = parseInt($(this).attr("data-paged"));
+    //    paged++;
+    //    //console.log(paged);
+    //    jQuery.ajax({
+    //        url: myajax.url, //url, к которому обращаемся
+    //        type: "POST",
+    //        data: "action=getPortfolio&paged=" + paged, //данные, которые передаем. Обязательно для action указываем имя нашего хука
+    //        success: function (data) {
+    //            // console.log(data);
+    //            //$('#all').before(data);
+    //            $('.portfolio--link').before(data);
+    //            $('.portfolio--link').attr('data-paged',paged);
+    //        }
+    //    });
+    //    return false;
+    //});
 });
 
 ymaps.ready(init);

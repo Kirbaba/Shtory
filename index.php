@@ -345,18 +345,9 @@
 					<!-- close .portfolio__item -->
 				</div>
 				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-				<!-- open .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-					<!-- open .portfolio__item -->
-					<div class="portfolio__item">
-						<a href="" class="portfolio__item--img"><img src="<?php bloginfo('template_directory'); ?>/img/foto-4.jpg" alt="" /><span class="portfolio__item--img--more">Смотреть подробнее</span></a>
-						<p>Название проекта в две строчки</p>
-						<a href="#" class="portfolio__item--link">Подробнее</a>
-					</div>
-					<!-- close .portfolio__item -->
-				</div>
-				<!-- close .col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
-				<a href="#" class="portfolio--link">СМОТРЕТЬ ЕЩЕ РАБОТЫ</a>
+				<?php echo do_shortcode('[portfolio]'); ?>
+				<!-- СЮДА ВСТАВЛЯТЬ ССЫЛКУ НА АЛЬБОМЫ В ВК -->
+				<a href="https://vk.com/album" class="portfolio--link" data-paged="1">СМОТРЕТЬ ЕЩЕ РАБОТЫ</a>
 			</div>
 			<!-- close .row -->
 		</div>
